@@ -30,8 +30,8 @@ spec:
       - name: kibana
         env:
           - name: NODE_OPTIONS
-            value: "--max-old-space-size=800"
+            value: "--max-old-space-size=1600"
         resources:
           limits:
-            memory: 2.5Gi
+            memory: 2G
             cpu: 2
