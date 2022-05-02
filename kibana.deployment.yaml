@@ -3,7 +3,7 @@ kind: Kibana
 metadata:
   name: quickstart
 spec:
-  version: 8.1.3
+  version: 7.16.3
   count: 1
   elasticsearchRef:
     name: quickstart
@@ -22,8 +22,8 @@ spec:
       reporting:
         roles.enabled: false
         capture.maxAttempts: 1
-        encryptionKey: 2cool4k8sitssohotcuzimcoveredinice
-      security.encryptionKey: 2cool4k8sitssohotcuzimcoveredinice
+      reporting.encryptionKey: testfoo123testfoo123testfoo123testfoo123testfoo123
+      security.encryptionKey: testfoo123testfoo123testfoo123testfoo123testfoo123
   podTemplate:
     spec:
       containers:

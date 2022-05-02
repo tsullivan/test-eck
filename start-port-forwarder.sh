@@ -16,4 +16,4 @@ kubectl get service quickstart-kb-http
 #kubectl port-forward service/quickstart-es-http 9200
 
 # expose kibana on 5601
-kubectl port-forward service/quickstart-kb-http 5601
+kubectl port-forward service/quickstart-kb-http 5699:5601
