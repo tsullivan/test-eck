@@ -3,7 +3,6 @@
 set -v -e
 
 kubectl apply -f elasticsearch.deployment.yaml
-kubectl apply -f elasticagent.deployment.yaml
 kubectl apply -f kibana.deployment.yaml
 
 # To start a trial create a Kubernetes secret. Note that it must be in the same namespace as the operator
