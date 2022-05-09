@@ -18,3 +18,6 @@ metadata:
   annotations:
     elastic.co/eula: accepted
 EOF
+
+# display the ClusterIP Service that has been automatically created for Kibana
+kubectl get service quickstart-kb-http
