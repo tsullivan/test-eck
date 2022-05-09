@@ -3,7 +3,7 @@ kind: Kibana
 metadata:
   name: quickstart
 spec:
-  version: 7.16.3
+  version: 8.2.0
   count: 1
   elasticsearchRef:
     name: quickstart
@@ -16,8 +16,6 @@ spec:
           level: debug
         - name: metrics.ops
           level: debug
-    #   - name: elasticsearch.query
-    #     level: debug
     xpack:
       reporting:
         roles.enabled: false
